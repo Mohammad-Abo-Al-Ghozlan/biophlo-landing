@@ -31,6 +31,7 @@ const benefits = [
     title: "Expert-Led Courses",
     text: "Real-world explanations and practical examples.",
     icon: GraduationCap,
+    featured: true,
   },
   {
     title: "Supportive Community",
