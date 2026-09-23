@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
+  BookOpenCheck,
+  CalendarClock,
   Check,
-  Dna,
   Globe2,
   GraduationCap,
   Laptop,
@@ -24,8 +25,7 @@ const benefits = [
   {
     title: "Flexible Learning",
     text: "Learn anytime, anywhere at your own pace.",
-    icon: Dna,
-    featured: true,
+    icon: CalendarClock,
   },
   {
     title: "Expert-Led Courses",
@@ -46,7 +46,7 @@ const journey = [
     text: "Discover the amazing world of living things.",
     image: "/assets/journey-leaf.webp",
     alt: "A student examining a green leaf",
-    side: "left",
+    side: "right",
   },
   {
     number: "02",
@@ -54,7 +54,7 @@ const journey = [
     text: "Make sense of how life works.",
     image: "/assets/journey-microscope.webp",
     alt: "Student using a microscope",
-    side: "right",
+    side: "left",
   },
   {
     number: "03",
@@ -62,7 +62,7 @@ const journey = [
     text: "Build your skills step by step.",
     image: "/assets/journey-cell.webp",
     alt: "Student drawing a plant cell",
-    side: "left",
+    side: "right",
   },
   {
     number: "04",
@@ -70,13 +70,13 @@ const journey = [
     text: "Grow your confidence for what’s next.",
     image: "/assets/journey-student.webp",
     alt: "Student reflecting outdoors",
-    side: "right",
+    side: "left",
   },
 ];
 
 const stats = [
   { value: "10k+", label: "Students", icon: Users },
-  { value: "50+", label: "Courses", icon: Play },
+  { value: "50+", label: "Courses", icon: BookOpenCheck },
   { value: "4.8/5", label: "Average Rating", icon: Star },
   { value: "30+", label: "Countries", icon: Globe2 },
 ];
@@ -105,7 +105,7 @@ const courses = [
   },
 ];
 
-const ways = [
+const learningAdvantages = [
   {
     title: "Secure & Reliable",
     text: "Your learning progress and data are always safe.",
@@ -169,7 +169,7 @@ export default function Home() {
             <button className="icon-button" aria-label="Search">
               <Search size={22} strokeWidth={2.2} />
             </button>
-            <button className="button button-outline button-compact">Log in</button>
+            <button className="button button-login button-compact">Log in</button>
             <button className="button button-primary button-compact" onClick={() => goTo("courses")}>Start Learning</button>
             <button
               className="mobile-menu-button"
@@ -225,9 +225,6 @@ export default function Home() {
               <span>Join 10,000+ learners worldwide</span>
             </div>
           </div>
-          <div className="hero-visual" aria-label="Student learning biology">
-            <img src="/assets/hero-student.webp" alt="Student holding a biology book" />
-          </div>
         </div>
       </section>
 
@@ -282,6 +279,35 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="better-way-section section-pad" id="why-biophlo">
+        <div className="container">
+          <header className="better-way-heading reveal">
+            <p className="mini-label">Why BIOPHLO</p>
+            <h2>A Better Way to Learn Biology</h2>
+          </header>
+          <div className="better-way-grid">
+            {learningAdvantages.map(({ title, text, icon: Icon }, index) => (
+              <article
+                className={["better-way-card", index === 1 && "better-way-card-featured", "reveal"].filter(Boolean).join(" ")}
+                key={title}
+              >
+                <span className="better-way-icon"><Icon size={30} strokeWidth={1.8} /></span>
+                <div className="better-way-copy">
+                  <h3>{title}</h3>
+                  <p>{text}</p>
+                </div>
+                {index === 1 && (
+                  <span className="device-art" aria-hidden="true">
+                    <img src="/assets/a-better-way-to-learn-biology.png" alt="" />
+                  </span>
+                )}
+                {index !== 1 && <span className="science-accent" aria-hidden="true" />}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="about-section section-pad" id="about">
         <div className="container about-grid reveal">
           <div className="about-photo">
@@ -318,6 +344,14 @@ export default function Home() {
               <div><strong>{value}</strong><span>{label}</span></div>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="science-banner reveal" aria-label="Biology discovery banner">
+        <img src="/assets/banner.jpeg" alt="Microscope, laboratory glassware, molecules, and a glowing idea bulb" />
+        <div className="science-banner-copy">
+          <p>Learn · Explore · Grow</p>
+          <h2>Discover the Science of Life</h2>
         </div>
       </section>
 
@@ -416,26 +450,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="why-section section-pad" id="why-biophlo">
-        <div className="container">
-          <header className="why-heading reveal">
-            <p className="mini-label">Why BIOPHLO</p>
-            <h2>A Better Way to Learn Biology</h2>
-          </header>
-          <div className="way-grid">
-            {ways.map(({ title, text, icon: Icon }) => (
-              <article className="way-card reveal" key={title}>
-                <span className="way-icon"><Icon size={25} /></span>
-                <div><h3>{title}</h3><p>{text}</p></div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="cta-section">
         <div className="container cta-card reveal">
-          <img src="/assets/cta-biology.webp" alt="" className="cta-art" />
           <div className="cta-copy">
             <p>Ready to start?</p>
             <h2>Unlock the Wonders of Biology</h2>
@@ -444,7 +460,9 @@ export default function Home() {
               Start Learning Today <ArrowRight size={18} />
             </button>
           </div>
-          <p className="cta-note" aria-hidden="true">Science<br />Connects Us<br />All</p>
+          <div className="cta-instructor">
+            <img src="/assets/instructor.webp" alt="Dr. Sarah Ahmed, biology instructor" />
+          </div>
         </div>
       </section>
 
