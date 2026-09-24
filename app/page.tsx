@@ -15,7 +15,6 @@ import {
   Play,
   Search,
   ShieldCheck,
-  Smartphone,
   Star,
   Users,
   Wallet,
@@ -300,8 +299,7 @@ export default function Home() {
                 </div>
                 {index === 1 && (
                   <span className="device-art" aria-hidden="true">
-                    <Laptop className="device-laptop" strokeWidth={1.4} />
-                    <Smartphone className="device-phone" strokeWidth={1.6} />
+                    <img src="/assets/a-better-way-to-learn-biology.png" alt="" />
                   </span>
                 )}
                 {index !== 1 && <span className="science-accent" aria-hidden="true" />}
