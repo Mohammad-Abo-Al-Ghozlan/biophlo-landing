@@ -15,6 +15,7 @@ import {
   Play,
   Search,
   ShieldCheck,
+  Smartphone,
   Star,
   Users,
   Wallet,
@@ -299,7 +300,8 @@ export default function Home() {
                 </div>
                 {index === 1 && (
                   <span className="device-art" aria-hidden="true">
-                    <img src="/assets/a-better-way-to-learn-biology.png" alt="" />
+                    <Laptop className="device-laptop" strokeWidth={1.4} />
+                    <Smartphone className="device-phone" strokeWidth={1.6} />
                   </span>
                 )}
                 {index !== 1 && <span className="science-accent" aria-hidden="true" />}
@@ -462,7 +464,7 @@ export default function Home() {
             </button>
           </div>
           <div className="cta-instructor">
-            <img src="/assets/instructor.webp" alt="Dr. Sarah Ahmed, biology instructor" />
+            <img src="/assets/cta-instructor-pointing.png" alt="Biology instructor pointing toward the invitation to start learning" />
           </div>
         </div>
       </section>
