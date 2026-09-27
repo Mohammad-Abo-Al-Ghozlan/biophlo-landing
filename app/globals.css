@@ -185,11 +185,25 @@ a:focus-visible {
   font-weight: 750;
   text-decoration: none;
   cursor: pointer;
-  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+  transition:
+    transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 240ms ease,
+    background 240ms ease,
+    border-color 240ms ease;
 }
 
-.button:hover {
-  transform: translateY(-2px);
+.button > svg,
+.button .round-play {
+  transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.button:active {
+  transform: translateY(-1px) scale(0.985);
+}
+
+.button:focus-visible {
+  outline: 3px solid rgba(255, 173, 46, 0.45);
+  outline-offset: 3px;
 }
 
 .button-primary {
@@ -327,7 +341,7 @@ a:focus-visible {
 .benefits {
   position: relative;
   z-index: 3;
-  padding: 0 0 42px;
+  padding: 36px 0 42px;
 }
 
 .benefit-grid {
@@ -657,7 +671,20 @@ a:focus-visible {
 }
 
 .about-copy h2 span {
-  color: #0b9b9d;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.about-copy h2 span::after {
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+  left: 0;
+  height: 4px;
+  border-radius: 99px;
+  background: #f3ad34;
+  content: "";
 }
 
 .about-intro {
@@ -697,38 +724,16 @@ a:focus-visible {
 
 .molecule-decoration {
   position: absolute;
-  right: -35px;
-  bottom: -34px;
-  width: 180px;
-  height: 200px;
-  opacity: 0.13;
-}
-
-.molecule-decoration::before,
-.molecule-decoration::after {
-  position: absolute;
-  width: 3px;
-  height: 120px;
-  background: #0ba4a5;
-  content: "";
-}
-
-.molecule-decoration::before { left: 86px; top: 35px; transform: rotate(37deg); }
-.molecule-decoration::after { left: 90px; top: 34px; transform: rotate(-35deg); }
-
-.molecule-decoration i {
-  position: absolute;
   z-index: 1;
-  width: 52px;
-  height: 48px;
-  background: #32bebc;
-  clip-path: polygon(25% 4%, 75% 4%, 100% 50%, 75% 96%, 25% 96%, 0 50%);
+  right: -20px;
+  bottom: -62px;
+  width: 210px;
+  height: auto;
+  opacity: 0.22;
+  mix-blend-mode: multiply;
+  object-fit: contain;
+  pointer-events: none;
 }
-
-.molecule-decoration i:nth-child(1) { left: 68px; top: 70px; width: 70px; height: 65px; }
-.molecule-decoration i:nth-child(2) { left: 8px; top: 12px; }
-.molecule-decoration i:nth-child(3) { right: 0; top: 10px; }
-.molecule-decoration i:nth-child(4) { right: 3px; bottom: 0; }
 
 .stats-band {
   border-top: 1px solid #e7f1f2;
@@ -1549,7 +1554,7 @@ a:focus-visible {
 .hero {
   min-height: 610px;
   background:
-    linear-gradient(90deg, rgba(2, 83, 98, 0.86) 0%, rgba(3, 99, 112, 0.7) 35%, rgba(0, 66, 81, 0.08) 72%),
+    linear-gradient(90deg, rgba(2, 78, 92, 0.7) 0%, rgba(3, 99, 112, 0.42) 34%, rgba(0, 66, 81, 0.08) 58%, rgba(0, 66, 81, 0) 74%),
     url("/assets/banner.jpeg") center / cover no-repeat;
 }
 
@@ -1602,7 +1607,6 @@ a:focus-visible {
 .section-heading h2,
 .courses-heading h2,
 .lesson-heading,
-.about-copy h2,
 .journey-copy h3,
 .course-card h3,
 .quiz-panel h3 {
@@ -1673,7 +1677,7 @@ a:focus-visible {
 
 .better-way-grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.45fr) minmax(0, 0.9fr);
+  grid-template-columns: minmax(285px, 1fr) minmax(480px, 1.55fr) minmax(285px, 1fr);
   align-items: center;
   gap: 22px;
 }
@@ -1697,7 +1701,7 @@ a:focus-visible {
 
 .better-way-card-featured {
   min-height: 194px;
-  grid-template-columns: 66px minmax(145px, 0.85fr) minmax(180px, 1.15fr);
+  grid-template-columns: 66px minmax(165px, 1fr) 190px;
   padding-right: 0;
 }
 
@@ -1721,6 +1725,7 @@ a:focus-visible {
   color: var(--brand-deep);
   font-size: 17px;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .better-way-card p {
@@ -1738,50 +1743,19 @@ a:focus-visible {
 .device-art {
   position: relative;
   align-self: stretch;
-  min-width: 0;
+  width: 190px;
+  min-width: 190px;
+  justify-self: end;
   overflow: hidden;
-}
-
-.device-art::before {
-  position: absolute;
-  inset: 12px -22px 12px 0;
-  border-radius: 50% 0 0 50%;
-  background: rgba(195, 242, 240, 0.38);
-  content: "";
 }
 
 .device-art img {
   position: absolute;
-  top: -118px;
-  left: -505px;
-  width: 1085px;
+  top: -149px;
+  left: -635px;
+  width: 1180px;
   max-width: none;
-  opacity: 0.92;
-}
-
-.science-accent {
-  position: absolute;
-  right: -12px;
-  bottom: -18px;
-  width: 112px;
-  height: 112px;
-  opacity: 0.22;
-  background:
-    radial-gradient(circle at 28% 30%, var(--brand-aqua) 0 9px, transparent 10px),
-    radial-gradient(circle at 72% 18%, var(--brand-aqua) 0 14px, transparent 15px),
-    radial-gradient(circle at 54% 72%, var(--brand-aqua) 0 18px, transparent 19px);
-}
-
-.better-way-card:last-child .science-accent {
-  width: 95px;
-  height: 150px;
-  right: 4px;
-  bottom: -30px;
-  background:
-    linear-gradient(65deg, transparent 44%, rgba(39, 187, 183, 0.3) 45% 48%, transparent 49%),
-    radial-gradient(ellipse at 60% 20%, var(--brand-aqua) 0 7px, transparent 8px),
-    radial-gradient(ellipse at 35% 48%, var(--brand-aqua) 0 7px, transparent 8px),
-    radial-gradient(ellipse at 65% 74%, var(--brand-aqua) 0 7px, transparent 8px);
+  opacity: 1;
 }
 
 .stats-band {
@@ -1894,6 +1868,47 @@ a:focus-visible {
   color: var(--brand-deep);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    transform: translateY(-4px) scale(1.025);
+  }
+
+  .button:hover > svg {
+    transform: translateX(4px);
+  }
+
+  .button:hover .round-play {
+    transform: scale(1.1);
+  }
+
+  .button-primary:hover,
+  .header-actions .button-primary:hover {
+    box-shadow: 0 16px 30px rgba(247, 163, 29, 0.4);
+  }
+
+  .button-login:hover {
+    background: #087f8c;
+    box-shadow: 0 14px 26px rgba(8, 127, 140, 0.28);
+  }
+
+  .button-outline:hover {
+    border-color: var(--brand-deep);
+    box-shadow: 0 14px 28px rgba(8, 83, 102, 0.17);
+  }
+}
+
+@media (max-width: 1100px) {
+  .better-way-grid {
+    max-width: 720px;
+    grid-template-columns: 1fr;
+    margin-inline: auto;
+  }
+
+  .better-way-card-featured {
+    grid-template-columns: 66px minmax(0, 1fr) 190px;
+  }
+}
+
 @media (max-width: 900px) {
   .hero-content { width: min(600px, 75%); }
   .hero-inner { padding-block: 58px; }
@@ -1901,19 +1916,20 @@ a:focus-visible {
   .cta-copy { padding: 36px; }
   .cta-instructor { width: 225px; }
   .better-way-grid { grid-template-columns: 1fr; max-width: 680px; margin-inline: auto; }
-  .better-way-card-featured { grid-template-columns: 66px minmax(145px, 0.85fr) minmax(180px, 1.15fr); }
+  .better-way-card-featured { grid-template-columns: 66px minmax(0, 1fr) 190px; }
+  .benefits { padding-top: 28px; }
+  .molecule-decoration { right: -45px; bottom: -72px; width: 170px; opacity: 0.12; }
 }
 
 @media (max-width: 560px) {
   .hero {
     min-height: 620px;
-    background-position: 61% center;
+    background:
+      linear-gradient(90deg, rgba(0, 67, 81, 0.7) 0%, rgba(0, 75, 89, 0.42) 58%, rgba(0, 66, 81, 0.08) 100%),
+      url("/assets/banner.jpeg") 61% center / cover no-repeat;
   }
   .hero::before {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 69, 82, 0.48);
-    content: "";
+    content: none;
   }
   .hero-inner { min-height: 620px; padding-block: 42px; }
   .hero-content { width: 100%; }
@@ -1936,8 +1952,22 @@ a:focus-visible {
   .better-way-heading { margin-bottom: 26px; }
   .better-way-card { min-height: 128px; grid-template-columns: 56px minmax(0, 1fr); padding: 20px; }
   .better-way-icon { width: 54px; height: 54px; }
-  .better-way-card-featured { min-height: 165px; grid-template-columns: 56px minmax(0, 1fr); padding-right: 20px; }
-  .better-way-card-featured .device-art { display: none; }
+  .better-way-card h3 { font-size: 16px; }
+  .better-way-card-featured {
+    min-height: 293px;
+    grid-template-columns: 56px minmax(0, 1fr);
+    grid-template-rows: auto 145px;
+    padding-right: 20px;
+  }
+  .better-way-card-featured .device-art {
+    display: block;
+    width: 190px;
+    height: 145px;
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .benefits { padding-top: 24px; }
+  .molecule-decoration { right: -52px; bottom: -48px; width: 125px; opacity: 0.08; }
   .stats-grid { width: 100%; }
   .stat-item { min-height: 112px; }
   .science-banner img { min-height: 230px; object-position: 67% center; }

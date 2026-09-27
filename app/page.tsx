@@ -302,7 +302,6 @@ export default function Home() {
                     <img src="/assets/a-better-way-to-learn-biology.png" alt="" />
                   </span>
                 )}
-                {index !== 1 && <span className="science-accent" aria-hidden="true" />}
               </article>
             ))}
           </div>
@@ -331,9 +330,15 @@ export default function Home() {
               More About Me <ArrowRight size={18} />
             </button>
           </div>
-          <div className="molecule-decoration" aria-hidden="true">
-            <i /><i /><i /><i />
-          </div>
+          <img
+            className="molecule-decoration"
+            src="/assets/molecule-network.jpeg"
+            alt=""
+            aria-hidden="true"
+            width={407}
+            height={627}
+            decoding="async"
+          />
         </div>
       </section>
 
