@@ -467,7 +467,7 @@ export default function Home() {
             </button>
           </div>
           <div className="cta-instructor">
-            <img src="/assets/instructor.webp" alt="Dr. Sarah Ahmed, biology instructor" />
+            <img src="/assets/cta-instructor-pointing.png" alt="Biology instructor pointing toward the invitation to start learning" />
           </div>
         </div>
       </section>

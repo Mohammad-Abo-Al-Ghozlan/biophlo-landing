@@ -1,0 +1,439 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v25.8.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\User\Desktop\biophlo-landing\biophlo-landing\.npmrc
+5 silly config load:file:C:\Users\User\.npmrc
+6 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @rolldown/binding-win32-x64-msvc@1.0.1
+8 verbose argv "install" "@rolldown/binding-win32-x64-msvc@1.0.1" "--cache" ".npm-cache" "--prefer-online" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\User\Desktop\biophlo-landing\biophlo-landing\.npm-cache\_logs\2026-09-23T11_15_25_199Z-
+10 verbose logfile C:\Users\User\Desktop\biophlo-landing\biophlo-landing\.npm-cache\_logs\2026-09-23T11_15_25_199Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @rolldown/binding-win32-x64-msvc@1.0.1
+15 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc 5417ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc set size:undefined disposed:false
+18 silly placeDep ROOT @rolldown/binding-win32-x64-msvc@1.0.1 REPLACE for: site-creator-vinext-starter@0.1.0 want: 1.0.1
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\next'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@cloudflare\\workerd-windows-64'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\acorn',
+21 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\acorn',
+21 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\acorn.cmd',
+21 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\acorn.ps1'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\baseline-browser-mapping',
+22 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\baseline-browser-mapping',
+22 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+22 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\browserslist',
+23 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\browserslist',
+23 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\browserslist.cmd',
+23 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\browserslist.ps1'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\drizzle-kit',
+24 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\drizzle-kit',
+24 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\drizzle-kit.cmd',
+24 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\drizzle-kit.ps1'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\esbuild',
+25 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\esbuild',
+25 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\esbuild.cmd',
+25 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\esbuild.ps1'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\eslint',
+26 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\eslint',
+26 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\eslint.cmd',
+26 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\eslint.ps1'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\image-size',
+27 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\image-size',
+27 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\image-size.cmd',
+27 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\image-size.ps1'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\semver',
+28 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\semver',
+28 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.cmd',
+28 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.ps1'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\jiti',
+29 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jiti',
+29 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jiti.cmd',
+29 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jiti.ps1'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\js-yaml',
+30 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\js-yaml',
+30 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\js-yaml.cmd',
+30 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\js-yaml.ps1'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\jsesc',
+31 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jsesc',
+31 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jsesc.cmd',
+31 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jsesc.ps1'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\json5',
+32 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\json5',
+32 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\json5.cmd',
+32 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\json5.ps1'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\loose-envify',
+33 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\loose-envify',
+33 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\loose-envify.cmd',
+33 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\loose-envify.ps1'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\miniflare',
+34 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\miniflare',
+34 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\miniflare.cmd',
+34 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\miniflare.ps1'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\nanoid',
+35 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\nanoid',
+35 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\nanoid.cmd',
+35 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\nanoid.ps1'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\napi-postinstall',
+36 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\napi-postinstall',
+36 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\napi-postinstall.cmd',
+36 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\napi-postinstall.ps1'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\resolve',
+37 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\resolve',
+37 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\resolve.cmd',
+37 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\resolve.ps1'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\rolldown',
+38 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\rolldown',
+38 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\rolldown.cmd',
+38 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\rolldown.ps1'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\semver',
+39 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\semver',
+39 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\semver.cmd',
+39 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\semver.ps1'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\semver',
+40 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\semver',
+40 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\semver.cmd',
+40 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\semver.ps1'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\srvx',
+41 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\srvx',
+41 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\srvx.cmd',
+41 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\srvx.ps1'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\terser',
+42 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\terser',
+42 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\terser.cmd',
+42 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\terser.ps1'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\json5',
+43 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5',
+43 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd',
+43 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsx',
+44 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsx',
+44 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsx.cmd',
+44 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsx.ps1'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\typescript',
+45 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsc',
+45 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsc.cmd',
+45 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsc.ps1',
+45 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsserver',
+45 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsserver.cmd',
+45 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsserver.ps1'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\update-browserslist-db',
+46 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\update-browserslist-db',
+46 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\update-browserslist-db.cmd',
+46 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\update-browserslist-db.ps1'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\vinext',
+47 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vinext',
+47 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vinext.cmd',
+47 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vinext.ps1'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\vite',
+48 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vite',
+48 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vite.cmd',
+48 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vite.ps1'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\webpack',
+49 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\webpack',
+49 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\webpack.cmd',
+49 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\webpack.ps1'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\which',
+50 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\node-which',
+50 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\node-which.cmd',
+50 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\node-which.ps1'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\workerd',
+51 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\workerd',
+51 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\workerd.cmd',
+51 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\workerd.ps1'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\wrangler',
+52 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler',
+52 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler.cmd',
+52 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler.ps1',
+52 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler2',
+52 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler2.cmd',
+52 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler2.ps1'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@babel\\parser',
+53 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\parser',
+53 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\parser.cmd',
+53 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\parser.ps1'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\esbuild',
+54 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild',
+54 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.cmd',
+54 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.ps1'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@shuding\\opentype.js',
+55 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\ot',
+55 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\ot.cmd',
+55 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\ot.ps1'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\semver',
+56 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver',
+56 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.cmd',
+56 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.ps1'
+56 silly reify ]
+57 silly reify moves {
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\next': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.next-2kXa8iQy',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@cloudflare\\workerd-windows-64': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@cloudflare\\.workerd-windows-64-n0bpA3Ca',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\acorn': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.acorn-XywzEkdo',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\acorn': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.acorn-n3LAFzKG',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.acorn.cmd-DMTGNK3l',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.acorn.ps1-v8pJWutD',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\baseline-browser-mapping': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.baseline-browser-mapping-9BzAK4ix',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.baseline-browser-mapping-L8MOFZC5',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.baseline-browser-mapping.cmd-gwc8dPtN',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.baseline-browser-mapping.ps1-jmMFeWR8',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\browserslist': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.browserslist-reNqff0C',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\browserslist': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.browserslist-QYgnikjC',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.browserslist.cmd-IGu0fWVr',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.browserslist.ps1-WR9TNRwI',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\drizzle-kit': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.drizzle-kit-Pxqj7GA0',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\drizzle-kit': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.drizzle-kit-BJDpE1hn',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\drizzle-kit.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.drizzle-kit.cmd-onKFZwls',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\drizzle-kit.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.drizzle-kit.ps1-v84xV8Ra',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\esbuild': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.esbuild-xHaJKoLU',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\esbuild': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.esbuild-J3cpiotj',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\esbuild.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.esbuild.cmd-355p36Yy',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\esbuild.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.esbuild.ps1-G7DJKP2s',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\eslint': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.eslint-WNb4CMB2',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\eslint': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.eslint-M696ZLAK',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\eslint.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.eslint.cmd-AI1Mxqnk',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\eslint.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.eslint.ps1-V00XWj0C',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\image-size': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.image-size-LqZfNrTA',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\image-size': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.image-size-Mnvwo7MW',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\image-size.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.image-size.cmd-RtU6JFAh',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\image-size.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.image-size.ps1-YYTK6jT2',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.semver-6y58VO1m',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver-7MOE8kIt',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver.cmd-07XsFDiu',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver.ps1-iij0nJgg',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\jiti': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.jiti-zXwpqZan',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jiti': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.jiti-oi4YxvwP',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.jiti.cmd-tAc0R7tT',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.jiti.ps1-fofbsIda',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\js-yaml': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.js-yaml-uinx4dlc',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\js-yaml': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.js-yaml-YtOhE06R',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.js-yaml.cmd-PY8VM4gt',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.js-yaml.ps1-y9UnKIqx',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\jsesc': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.jsesc-VLXbj9ES',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jsesc': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.jsesc-1rdW0Taj',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jsesc.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.jsesc.cmd-GwRE9mwu',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\jsesc.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.jsesc.ps1-S1cqehKL',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\json5': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.json5-JzofHAcL',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\json5': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.json5-FjqTKANG',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.json5.cmd-TkrpMvzO',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.json5.ps1-s5S8NNwc',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\loose-envify': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.loose-envify-9dfgXq3Q',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\loose-envify': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.loose-envify-kBH1OcIC',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.loose-envify.cmd-JtjaDbOT',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.loose-envify.ps1-M6TNBnqw',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\miniflare': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.miniflare-3d41BkOk',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\miniflare': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.miniflare-jcqbwDCL',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\miniflare.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.miniflare.cmd-3BLQYcyR',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\miniflare.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.miniflare.ps1-2Xwnbwj6',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\nanoid': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.nanoid-FvmuMcaW',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\nanoid': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.nanoid-DlCjYHuy',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.nanoid.cmd-AUq40nH7',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.nanoid.ps1-TUEg1mdn',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\napi-postinstall': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.napi-postinstall-8fomrME4',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\napi-postinstall': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.napi-postinstall-3WX3vHXp',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\napi-postinstall.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.napi-postinstall.cmd-MK8Ct6RN',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\napi-postinstall.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.napi-postinstall.ps1-GApMtDoN',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\resolve': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.resolve-2H5wDZB6',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\resolve': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.resolve-qPubUn2P',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.resolve.cmd-nvWMgsJK',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.resolve.ps1-MyaGfFUt',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\rolldown': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.rolldown-u5quXggo',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\rolldown': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.rolldown-WqHjLIfg',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\rolldown.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.rolldown.cmd-tVCirwBa',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\rolldown.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.rolldown.ps1-1nTSkBoO',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.semver-43YmrjNX',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.semver-6NyL0ZXn',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.semver.cmd-lSi7TJsd',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.semver.ps1-gPZO25hr',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.semver-LkOD5yiP',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\.semver-RSt7vt6p',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\.semver.cmd-cFzg6a8O',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\sharp\\node_modules\\.bin\\.semver.ps1-3Ti29MAU',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\srvx': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.srvx-DSPV7DT8',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\srvx': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.srvx-fkSICHKV',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\srvx.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.srvx.cmd-EikB2blI',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\srvx.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.srvx.ps1-h4yG5Kcd',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\terser': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.terser-iVRn8Q1G',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\terser': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.terser-qRCSCUQl',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\terser.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.terser.cmd-3yV8XY5S',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\terser.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.terser.ps1-VWSVvIoq',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\json5': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.json5-qHsiYlL7',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5-W1Qcof6B',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.cmd-JSHkJzPn',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.ps1-HkOfA1K5',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\tsx': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.tsx-e06uiLcb',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsx': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsx-rmXFFcOQ',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsx.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsx.cmd-r60fWU5E',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsx.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsx.ps1-uARrIJTc',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\typescript': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.typescript-DriBqnlS',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsc': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsc-lpf035XS',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsc.cmd-MRVr1auZ',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsc.ps1-U5sOKvw6',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsserver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsserver-MfnqnsNg',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsserver.cmd-2TxU5q30',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.tsserver.ps1-5nWJ1Ok2',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\update-browserslist-db': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.update-browserslist-db-QbltNzwf',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.update-browserslist-db-QCdjptsL',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.update-browserslist-db.cmd-492XcW7Y',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.update-browserslist-db.ps1-s8pbyPXE',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\vinext': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.vinext-dUNKyTZz',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vinext': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.vinext-UKrLS1iR',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vinext.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.vinext.cmd-SEzj0Po5',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vinext.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.vinext.ps1-mbjEE0hO',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\vite': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.vite-H3gEwrst',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vite': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.vite-qdgobOJa',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vite.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.vite.cmd-Go46Lqe0',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\vite.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.vite.ps1-612b0L5r',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\webpack': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.webpack-CMBCokEZ',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\webpack': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.webpack-zYo2qIR3',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\webpack.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.webpack.cmd-14chQeFU',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\webpack.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.webpack.ps1-hOdOSG36',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\which': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.which-1z5hIG0v',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\node-which': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.node-which-lbRAJiZu',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.node-which.cmd-jlJE6fag',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.node-which.ps1-PMfMqr1q',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\workerd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.workerd-WNawJYax',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\workerd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.workerd-MzhYRY8c',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\workerd.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.workerd.cmd-icJvrq44',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\workerd.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.workerd.ps1-HqcQjrMf',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\wrangler': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.wrangler-PPTBimu7',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.wrangler-icneYAE5',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.wrangler.cmd-cFBdxwSh',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.wrangler.ps1-jRRdXdwr',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler2': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.wrangler2-JRDqjL1J',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler2.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.wrangler2.cmd-ZbwkdFVg',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\wrangler2.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.wrangler2.ps1-732gavhM',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@babel\\parser': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@babel\\.parser-l5qoGJYR',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\parser': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.parser-E04jXoGG',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.parser.cmd-kWHbAqXY',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.parser.ps1-SCNJVwEV',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\esbuild': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.esbuild-VzFGuIwX',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\.esbuild-ikN57Yjs',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\.esbuild.cmd-w0xEvbJ2',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\.esbuild.ps1-5W225tK7',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@shuding\\opentype.js': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@shuding\\.opentype.js-CVAxj6Lb',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\ot': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.ot-UoBwMBkv',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\ot.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.ot.cmd-Xh5EeU8y',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\ot.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\.bin\\.ot.ps1-F91zVzDI',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.semver-MbwcFMao',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver-XKcDrMr0',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver.cmd-KSJo62gw',
+57 silly reify   'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\User\\Desktop\\biophlo-landing\\biophlo-landing\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver.ps1-PeumaKYU'
+57 silly reify }
+58 http fetch GET 200 https://registry.npmjs.org/@shuding/opentype.js/-/opentype.js-1.4.0-beta.0.tgz 8161ms (cache revalidated)
+59 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 8255ms (cache revalidated)
+60 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 8253ms (cache revalidated)
+61 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz 8271ms (cache revalidated)
+62 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 8444ms (cache revalidated)
+63 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz 8582ms (cache revalidated)
+64 http fetch GET 200 https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 8647ms (cache revalidated)
+65 http fetch GET 200 https://registry.npmjs.org/srvx/-/srvx-0.11.15.tgz 8647ms (cache revalidated)
+66 http fetch GET 200 https://registry.npmjs.org/miniflare/-/miniflare-4.20260515.0.tgz 8896ms (cache revalidated)
+67 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 8933ms (cache revalidated)
+68 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 8943ms (cache revalidated)
+69 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 8958ms (cache revalidated)
+70 http fetch GET 200 https://registry.npmjs.org/image-size/-/image-size-2.0.2.tgz 9293ms (cache revalidated)
+71 http fetch GET 200 https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 9394ms (cache revalidated)
+72 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 9402ms (cache revalidated)
+73 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 9411ms (cache revalidated)
+74 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz 9617ms (cache revalidated)
+75 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.27.3.tgz 9623ms (cache revalidated)
+76 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.28.0.tgz 9629ms (cache revalidated)
+77 http fetch GET 200 https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.10.tgz 9668ms (cache revalidated)
+78 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 9841ms (cache revalidated)
+79 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz 9904ms (cache revalidated)
+80 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.30.tgz 9905ms (cache revalidated)
+81 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz 9925ms (cache revalidated)
+82 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 10824ms (cache revalidated)
+83 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 10841ms (cache revalidated)
+84 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 10845ms (cache revalidated)
+85 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 11074ms (cache revalidated)
+86 http fetch GET 200 https://registry.npmjs.org/webpack/-/webpack-5.106.2.tgz 11402ms (cache revalidated)
+87 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-8.0.13.tgz 11413ms (cache revalidated)
+88 http fetch GET 200 https://registry.npmjs.org/vinext/-/vinext-1.0.0-beta.5.tgz 11554ms (cache revalidated)
+89 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 12254ms (cache revalidated)
+90 http fetch GET 200 https://registry.npmjs.org/tsx/-/tsx-4.22.1.tgz 12601ms (cache revalidated)
+91 http fetch GET 200 https://registry.npmjs.org/workerd/-/workerd-1.20260515.1.tgz 12623ms (cache revalidated)
+92 http fetch GET 200 https://registry.npmjs.org/wrangler/-/wrangler-4.92.0.tgz 13937ms (cache revalidated)
+93 http fetch GET 200 https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz 14165ms (cache revalidated)
+94 http fetch GET 200 https://registry.npmjs.org/terser/-/terser-5.47.1.tgz 14176ms (cache revalidated)
+95 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 14275ms (cache revalidated)
